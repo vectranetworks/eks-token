@@ -5,7 +5,7 @@ with open('README.md') as readme:
 
 setup(
     name='eks_token',
-    version='0.1.1',
+    version='0.2.0',
     author='Peak AI',
     author_email='support@peak.ai',
     description='EKS Token package, an alternate to "aws eks get-token ..." CLI',
@@ -19,5 +19,5 @@ setup(
     ],
     python_requires='>=3.6',
     keywords='eks k8s boto3 awscli python aws',
-    install_requires=["awscli==1.19.69"],
+    install_requires=["awscli"],
 )
