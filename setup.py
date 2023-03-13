@@ -19,5 +19,5 @@ setup(
     ],
     python_requires='>=3.6',
     keywords='eks k8s boto3 awscli python aws',
-    install_requires=["awscli==1.19.69"],
+    install_requires=["awscli"],
 )
